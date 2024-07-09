@@ -1,0 +1,240 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+    @media only screen and (min-width:300px) and (max-width:550px)
+    {
+        .section-1 img{
+            height: 250px !important;
+        }
+        .section-1{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+            height: 580px !important;
+        }
+        .sec-2-box{
+            padding: 50px 20px !important;
+        }
+        h2{
+            font-size: 35px !important;
+        }
+        section img{
+            width: 100% !important;
+            margin-top: 15px;
+            height: 300px !important;
+        }
+        .section-space{
+            padding-top: 20px !important; 
+            padding-bottom: 20px !important;
+        }
+        p{
+            font-size: 14px !important;
+            line-height: 25px !important;
+        }
+        footer{
+            border-top: 1px solid #666;
+            padding: 40px 20px !important;
+        }
+        footer h2{
+            font-size: 20px !important;
+        }
+        footer li{
+            font-size: 12px !important;
+        }
+       
+    }
+header{
+    height: 80px;
+   background:radial-gradient(circle at center, #024a7c 0, #002345 100%); ;
+}
+.header-1{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-1 a{
+    font-family: 'Outfit';
+    font-weight: 600; 
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.header-1 button{
+    height: 38px;
+    width: 130px;
+border: none;
+outline: none;
+font-family: "Outfit";
+font-weight: 400;
+color: #fff;
+background-color: transparent;
+border: 1px solid #fff;
+
+}
+.header-1 button:hover{
+    background-color: #fff;
+    color: #024a7c;
+    border: 1px solid #024a7c;
+    transition: all 0.5s ease-in-out;
+}
+.header-1 .col-lg-8{
+    gap:35px;
+}
+.section-1 {
+    height: fit-content;
+    background: url('megamenu-background-image-02.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+h2{
+    font-size: 50px ;
+
+    font-family: "Vollkorn";
+}
+h1{
+
+    font-size: 40px;
+    
+    font-family: "Vollkorn";
+}
+p{
+    font-size: 16px;
+    font-weight: 300 !important;
+    font-family: "Outfit";
+    line-height: 30px;
+   
+
+}
+.section-space{
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+.sec-2-box{
+    text-align: center;
+    padding: 80px;
+    background-color: #dfe6ec;
+    
+}
+section img{
+    height: 350px;
+    object-fit: cover;
+    width: 100%;
+}
+section button{
+    height: 45px;
+    width: 170px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border: 1px solid #ff8300;
+    color: #ff8300;
+    background: #fff;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 13px;
+}
+section button:hover{
+    background-color: #ff8300;
+    color: #fff;
+    transition: all 200ms ease-in-out;
+}
+section label{
+    font-family: "Vollkorn";
+    font-size: 14px;
+}
+section input{
+    font-family: "Outfit";
+    font-size: 12px !important;
+}
+.respo-header{
+    display: none;
+}
+.section-1 img{
+    height: 300px ;
+}
+@media only screen and (min-width:300px) and (max-width:1000px){
+    .header-1{
+        display: none !important;
+    }
+    header{
+height: 60px;
+    }.respo-header{
+        padding: 0px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .respo-header i{
+        color: #fff;
+        font-size: 40px;
+    }
+  .offcanvas-body li{
+    font-family: "Outfit";
+    font-size: 14px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #666;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .offcanvas-body button{
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border: 1px solid #ff8300;
+    color: #fff;
+    background: #ff8300;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .offcanvas-body ul{
+padding: 0px;
+  }
+}
+footer{
+    display: flex;
+    padding: 30px 40px;
+    flex-wrap:wrap ;
+}
+footer h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+footer li{
+    list-style: none;
+    font-family: "Outfit";
+    text-transform: uppercase;
+    font-weight: 600;
+font-size: 13px;
+margin-top: 15px;    
+}
+footer button{
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border: 1px solid #ff8300;
+    color: #ff8300;
+    background: #fff;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 13px;
+}
+footer p{
+    font-family: "Outfit";
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+footer ul{
+    padding: 0px;
+}
